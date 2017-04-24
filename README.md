@@ -15,6 +15,7 @@ https://nodejs.org/en/ - LTS branch, Windows (x64) is a good choice
 `git clone https://github.com/richarda/katas-js.git`
 
 ### 3. install packages
+`cd katas-js`  
 `npm install`
 
 ### Run it!
