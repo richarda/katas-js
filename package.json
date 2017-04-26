@@ -2,16 +2,16 @@
   "name": "fizzbuzz_kata",
   "version": "1.0.0",
   "description": "This is a simple shell for starting a fizzbuzz kata",
-  "main": "",
+  "main": "lib/FizzBuzz.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
     "jasmine-core": "^2.5.2",
+    "karma": "^1.6.0",
     "karma-chrome-launcher": "^2.0.0",
     "karma-jasmine": "^1.1.0",
     "karma-mocha-reporter": "^2.2.3",
-    "karma": "^1.6.0",
     "karma-nyan-reporter": "^0.2.5",
     "karma-phantomjs-launcher": "^1.0.4"
   },
@@ -20,6 +20,10 @@
     "test": "node_modules/.bin/karma start tdd.conf.js --reporters mocha",
     "test_nyan": "node_modules/.bin/karma start tdd.conf.js --reporters nyan"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Richard Adams",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richarda/katas-js"
+  },
+  "license": "MIT"
 }

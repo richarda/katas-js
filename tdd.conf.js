@@ -1,3 +1,5 @@
+'use strict';
+
 // Karma configuration
 // Generated on Mon Apr 24 2017 13:30:21 GMT-0400 (Eastern Daylight Time)
 
@@ -10,13 +12,12 @@ module.exports = function(config) {
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ['jasmine'],
-
+    frameworks: [ 'jasmine' ],
 
     // list of files / patterns to load in the browser
     files: [
-      '*.js',
-      'test/**/*.js'
+      'lib/**/*.js',
+      'test/**/*Spec.js'
     ],
 
 
